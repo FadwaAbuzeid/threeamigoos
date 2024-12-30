@@ -1,0 +1,80 @@
+﻿@model Customer.Web.ViewModels.OrderViewModel
+
+<h1>Create Order</h1>
+
+<a asp-controller="Basket" asp-action="Index">Back to basket</a>
+
+<hr />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Product
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Subtotal
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderedItems)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @{double subtotal = item.Price * item.Quantity;}
+                    @subtotal
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+        <b>Total</b>
+    </td>
+    <td>
+        <b>@Model.TotalPrice</b>
+    </td>
+    </tfoot>
+</table>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input type="submit" value="Confirm Order" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

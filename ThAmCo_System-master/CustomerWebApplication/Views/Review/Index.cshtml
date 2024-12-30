@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Customer.Web.ViewModels.ReviewViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+    <h1>Reviews for <a asp-controller="Product" asp-action="Details" asp-route-ProductId="@ViewBag.ProductId">@ViewBag.ProductName</a></h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Timestamp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReviewText)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Timestamp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReviewText)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

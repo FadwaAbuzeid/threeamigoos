@@ -1,0 +1,11 @@
+﻿@model Customer.Web.ViewModels.ReviewViewModel
+
+<h1>Delete</h1>
+
+<h1>Are you sure you want to delete this?</h1>
+
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger" asp-route-ProductId="@ViewBag.ProductId"/> |
+        <a asp-action="History">Back to Reviews</a>
+    </form>
+</div>
