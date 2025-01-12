@@ -8,7 +8,6 @@ c:\Users\fadwa\Downloads\ThAmCo_System-master\ThAmCo_System-master\Customer.Mode
 c:\Users\fadwa\Downloads\ThAmCo_System-master\ThAmCo_System-master\Customer.Model\obj\Debug\netcoreapp2.2\Customer.Model.csproj.CoreCompileInputs.cache
 c:\Users\fadwa\Downloads\ThAmCo_System-master\ThAmCo_System-master\Customer.Model\obj\Debug\netcoreapp2.2\Customer.Model.dll
 c:\Users\fadwa\Downloads\ThAmCo_System-master\ThAmCo_System-master\Customer.Model\obj\Debug\netcoreapp2.2\Customer.Model.pdb
-c:\Users\fadwa\Downloads\ThAmCo_System-master\ThAmCo_System-master\Customer.Model\obj\Debug\netcoreapp2.2\Customer.Model.sourcelink.json
 c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\bin\Debug\netcoreapp2.2\Customer.Model.deps.json
 c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\bin\Debug\netcoreapp2.2\Customer.Model.dll
 c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\bin\Debug\netcoreapp2.2\Customer.Model.pdb

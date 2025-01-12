@@ -3,8 +3,8 @@ C:\Users\fadwa\Downloads\ThAmCo_System-master\ThAmCo_System-master\Customer.Test
 C:\Users\fadwa\Downloads\ThAmCo_System-master\ThAmCo_System-master\Customer.Tests\obj\Debug\netcoreapp3.0\Customer.Tests.AssemblyInfoInputs.cache
 C:\Users\fadwa\Downloads\ThAmCo_System-master\ThAmCo_System-master\Customer.Tests\obj\Debug\netcoreapp3.0\Customer.Tests.AssemblyInfo.cs
 C:\Users\fadwa\Downloads\ThAmCo_System-master\ThAmCo_System-master\Customer.Tests\obj\Debug\netcoreapp3.0\Customer.Tests.csproj.CoreCompileInputs.cache
-C:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Tests\obj\Debug\netcoreapp3.0\Customer.Tests.csproj.AssemblyReference.cache
-C:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Tests\obj\Debug\netcoreapp3.0\Customer.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Tests\obj\Debug\netcoreapp3.0\Customer.Tests.AssemblyInfoInputs.cache
-C:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Tests\obj\Debug\netcoreapp3.0\Customer.Tests.AssemblyInfo.cs
-C:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Tests\obj\Debug\netcoreapp3.0\Customer.Tests.csproj.CoreCompileInputs.cache
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Tests\obj\Debug\netcoreapp3.0\Customer.Tests.csproj.AssemblyReference.cache
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Tests\obj\Debug\netcoreapp3.0\Customer.Tests.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Tests\obj\Debug\netcoreapp3.0\Customer.Tests.AssemblyInfoInputs.cache
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Tests\obj\Debug\netcoreapp3.0\Customer.Tests.AssemblyInfo.cs
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Tests\obj\Debug\netcoreapp3.0\Customer.Tests.csproj.CoreCompileInputs.cache
