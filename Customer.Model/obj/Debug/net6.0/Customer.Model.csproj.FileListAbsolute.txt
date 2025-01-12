@@ -1,0 +1,12 @@
+C:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\bin\Debug\net6.0\Customer.Model.deps.json
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\bin\Debug\net6.0\Customer.Model.dll
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\bin\Debug\net6.0\Customer.Model.pdb
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\obj\Debug\net6.0\Customer.Model.csproj.AssemblyReference.cache
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\obj\Debug\net6.0\Customer.Model.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\obj\Debug\net6.0\Customer.Model.AssemblyInfoInputs.cache
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\obj\Debug\net6.0\Customer.Model.AssemblyInfo.cs
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\obj\Debug\net6.0\Customer.Model.csproj.CoreCompileInputs.cache
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\obj\Debug\net6.0\Customer.Model.dll
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\obj\Debug\net6.0\refint\Customer.Model.dll
+c:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\obj\Debug\net6.0\Customer.Model.pdb
+C:\Users\fadwa\OneDrive\Desktop\ThAmCo_System-master\Customer.Model\obj\Debug\net6.0\ref\Customer.Model.dll

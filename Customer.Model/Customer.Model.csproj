@@ -1,7 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+<<<<<<< HEAD
     <TargetFramework>net6.0</TargetFramework>
+=======
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+>>>>>>> e2aa3ca (Initial commit)
   </PropertyGroup>
 
   <ItemGroup>
