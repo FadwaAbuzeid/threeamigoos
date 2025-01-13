@@ -1,0 +1,54 @@
+name: Build and Deploy to Azure
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  DOTNET_VERSION: 6.0.x
+  BUILD_CONFIGURATION: Release
+  PROJECT_PATH: ./CustomerWebApplication
+
+  PUBLISH_PATH: ./publish
+
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout Code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Setup .NET
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      # Step 3: Restore Dependencies
+      - name: Restore dependencies
+        run: dotnet restore ${{ env.PROJECT_PATH }}
+
+      # Step 4: Build Application
+      - name: Build application
+        run: dotnet build ${{ env.PROJECT_PATH }} --configuration ${{ env.BUILD_CONFIGURATION }}
+
+      # Step 5: Publish Application
+      - name: Publish application
+        run: dotnet publish ${{ env.PROJECT_PATH }} --configuration ${{ env.BUILD_CONFIGURATION }} --output ${{ env.PUBLISH_PATH }}
+
+      # Step 6: Login to Azure
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      # Step 7: Deploy to Azure Web App
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: threeamigossa
+          package: ${{ env.PUBLISH_PATH }}
